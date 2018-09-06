@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Sytner testcase on Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://www.sytner.co.uk/" />
+		<parameter name="version" value="2.35" />
+		<classes>
+			<!-- <class name="com.sytner.MenuItems_001_AboutUs" /> -->
+			<!-- <class name="com.sytner.MenuItems_002_News" /> -->
+			<!-- <class name="com.sytner.MenuItems_003_CustomerService" /> -->
+			<!-- <class name="com.sytner.MenuItems_003_CustomerService" /> -->
+			<!-- <class name="com.sytner.MenuItems_004_Careers" /> -->
+			<!-- <class name="com.sytner.MenuItems_005_Finance" /> -->
+			<!-- <class name="com.sytner.MenuItems_007_UsedCarSearch" /> -->
+			<!-- <class name="com.sytner.MenuItems_008_NewCars" /> -->
+			<!-- <class name="com.sytner.MenuItems_009_CarMaintenance" /> -->
+			<!-- <class name="com.sytner.MenuItems_010_Promotions" /> -->
+			<!-- <class name="com.sytner.MenuItems_011_BusinessUsers" /> -->
+			<!-- <class name="com.sytner.MenuItems_012_SellYourCar" /> -->
+			<!-- <class name="com.sytner.MenuItems_013_DealerLocator" /> -->
+			<!-- <class name="com.sytner.MenuItems_014_HomeIcon" /> -->
+			<!-- <class name="com.sytner.MenuItems_015_SytnerGroupLogo" /> -->
+			<!-- <class name="com.sytner.ImageScroll_002_Pagination" /> -->
+			<!-- <class name="com.sytner.JumpPoints_001_Alpina" /> -->
+			<!-- <class name="com.sytner.JumpPoints_002_Audi" /> -->
+			<!-- <class name="com.sytner.JumpPoints_003_Bentley" /> -->
+			<!-- <class name="com.sytner.JumpPoints_004_BMW" /> -->
+			<!-- <class name="com.sytner.JumpPoints_005_Ferrari" /> -->
+			<!-- <class name="com.sytner.JumpPoints_007_Jaguar" /> -->
+			<!-- <class name="com.sytner.JumpPoints_008_LandRover" /> -->
+			<!-- <class name="com.sytner.JumpPoints_009_Lamborghini" /> -->
+			<!-- <class name="com.sytner.JumpPoints_010_Lexus" /> -->
+			<!-- <class name="com.sytner.JumpPoints_011_Maserati" /> -->
+			<!-- <class name="com.sytner.JumpPoints_012_McLaren" /> -->
+			<!-- <class name="com.sytner.JumpPoints_013_MercedesBenz" /> -->
+			<!-- <class name="com.sytner.JumpPoints_014_Mini" /> -->
+			<!-- <class name="com.sytner.JumpPoints_015_Porsche" /> -->
+			<!-- <class name="com.sytner.JumpPoints_016_RollsRoyce" /> -->
+			<!-- <class name="com.sytner.JumpPoints_017_Seat" /> -->
+			<!-- <class name="com.sytner.JumpPoints_018_Smart" /> -->
+			<!-- <class name="com.sytner.JumpPoints_019_Wolkswagen" /> -->
+			<!-- <class name="com.sytner.JumpPoints_020_Volvo" /> -->
+			<!-- <class name="com.sytner.JumpPoints_021_SytnerSelect" /> -->
+			<!-- <class name="com.sytner.JumpPoints_022_GraypaulClassicCars" /> -->
+			<!-- <class name="com.sytner.CarSearch_001_CarSearchSetion" /> -->
+			<!-- <class name="com.sytner.CarSearch_002_ViewAllStock" /> -->
+			<!-- <class name="com.sytner.CarSearch_003_TotalVehicles" /> -->
+			<!-- <class name="com.sytner.CarSearch_004_SearchButton" /> -->
+			<!-- <class name="com.sytner.CarSearch_005_VehiclesMake" /> -->
+			<!-- <class name="com.sytner.CarSearch_006_VehiclesMakeContain" /> -->
+			<!-- <class name="com.sytner.CarSearch_007_VehiclesModel" /> -->
+			<!-- <class name="com.sytner.CarSearch_008_VehiclesModelContain" /> -->
+			<!-- <class name="com.sytner.CarSearch_009_PostCodeDistance" /> -->
+			<!-- <class name="com.sytner.CarSearch_010_PostCodeDistanceContain" /> -->
+			<class name="com.sytner.CarSearch_011_PriceRange" />
+		</classes>
+	</test>
+</suite> 

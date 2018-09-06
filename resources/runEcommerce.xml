@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Ecommerce on Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="http://live.guru99.com" />
+		<parameter name="version" value="2.35" />
+		<classes>
+			<class name="com.ecommerce.ECommerce" />
+		</classes>
+	</test>
+	<test name="Ecommerce on Firefox">
+	<parameter name="browser" value="firefox" />
+	<parameter name="url" value="http://live.guru99.com" />
+	<parameter name="version" value="" />
+	<classes>
+		<class name="com.ecommerce.ECommerce" />
+	</classes>
+</test>
+</suite> 

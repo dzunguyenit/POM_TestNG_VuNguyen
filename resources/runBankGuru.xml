@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Payment, New Customer, Edit Customer on Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="http://demo.guru99.com/v4/" />
+		<parameter name="version" value="2.40" />
+		<classes>
+	<class name="com.bankguru.payment.Payment_01_MainWorkflow" />
+	<class name="com.bankguru.customer.NewCustomer" />
+	<class name="com.bankguru.customer.EditCustomer" />
+		</classes>
+	</test>
+	<!-- <test name="Payment, New Customer, Edit Customer on Firefox"> -->
+	<!-- <parameter name="browser" value="firefox" /> -->
+	<!-- <parameter name="url" value="http://demo.guru99.com/v4/" /> -->
+	<!-- <parameter name="version" value="" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.bankguru.payment.Payment_01_MainWorkflow" /> -->
+	<!-- <class name="com.bankguru.customer.NewCustomer" /> -->
+	<!-- <class name="com.bankguru.customer.EditCustomer" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="Payment, New Customer, Edit Customer on IE"> -->
+	<!-- <parameter name="browser" value="ie" /> -->
+	<!-- <parameter name="url" value="http://demo.guru99.com/v4/" /> -->
+	<!-- <parameter name="version" value="2.53.1" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.bankguru.payment.Payment_01_MainWorkflow" /> -->
+	<!-- <class name="com.bankguru.customer.NewCustomer" /> -->
+	<!-- <class name="com.bankguru.customer.EditCustomer" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+</suite> 
